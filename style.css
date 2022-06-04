@@ -1,0 +1,108 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: #7c8798;
+  --Dark-Blue: #252d37;
+  --Very-Dark-Blue: #141519;
+  --orange: #ff7a08;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+.father {
+  height: 100vh;
+  background-color: var(--Very-Dark-Blue);
+}
+.box {
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(
+    45deg,
+    #171e28,
+    #19202a,
+    #1c232d,
+    #1e252f,
+    #212832
+  );
+  padding: 40px;
+}
+.container {
+  height: 100vh;
+}
+.box img {
+  width: 15px;
+}
+.img-cont {
+  background-color: #26303a;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 20px;
+}
+.heading {
+  color: white;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+ul li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252e35;
+  padding: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+ul li:hover {
+  background-color: var(--Light-Grey);
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+.sub {
+  background-color: var(--orange);
+  padding: 10px;
+  border: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.sub:hover {
+  color: var(--orange);
+  background-color: white;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.img-container {
+  display: flex;
+}
+.score {
+  color: var(--orange);
+  background-color: #26303a;
+  padding: 5px;
+}
